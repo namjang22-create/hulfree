@@ -1,6 +1,6 @@
 {
   "name": "훌프리 (HulFree) - 마음을 훌훌, 자유롭게",
-  "description": "회원가입 없이 100% 익명으로 마음 속 고민과 스트레스를 훌훌 털어내고 자유로워지는 3D 인터랙티브 힐링 스페이스",
+  "description": "스트레스 쌓일 때, 로그인 없이 바로 들어와 답답한 고민을 태우고 터뜨리며 훌훌 날려버리는 100% 익명 3D 힐링 스페이스",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

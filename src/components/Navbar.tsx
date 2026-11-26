@@ -1,6 +1,7 @@
 import React from 'react';
 import { Flame, CircleDot, Waves, Sparkles, Volume2, Coffee, BarChart3, DoorOpen } from 'lucide-react';
 import { StressMode, SoundState } from '../types';
+import appIconImg from '../assets/images/hulfree_app_icon_1795656996207.jpg';
 
 interface NavbarProps {
   mode: StressMode;
@@ -31,16 +32,19 @@ export const Navbar: React.FC<NavbarProps> = ({
         {/* Brand Logo & Title */}
         <div className="flex items-center justify-between w-full md:w-auto">
           <div className="flex items-center gap-3">
-            <div className="w-9 h-9 rounded-2xl bg-gradient-to-tr from-cyan-500 via-teal-400 to-indigo-500 p-0.5 shadow-lg shadow-cyan-500/20">
-              <div className="w-full h-full bg-slate-950 rounded-[14px] flex items-center justify-center">
-                <Sparkles className="w-5 h-5 text-cyan-300" />
-              </div>
+            <div className="w-9 h-9 rounded-2xl bg-gradient-to-tr from-cyan-500 via-teal-400 to-indigo-500 p-0.5 shadow-lg shadow-cyan-500/20 overflow-hidden shrink-0">
+              <img
+                src={appIconImg}
+                alt="훌프리 앱 아이콘"
+                referrerPolicy="no-referrer"
+                className="w-full h-full object-cover rounded-[14px]"
+              />
             </div>
             <div>
               <h1 className="font-bold text-slate-100 text-base leading-tight flex items-center gap-2">
                 훌프리 <span className="text-xs px-2 py-0.5 rounded-md bg-cyan-500/20 text-cyan-300 border border-cyan-500/30 font-medium">HulFree 3D</span>
               </h1>
-              <p className="text-[11px] text-slate-400">마음을 훌훌, 자유롭게. 100% 익명 3D 힐링 스페이스</p>
+              <p className="text-[11px] text-slate-400">스트레스 쌓일 때 마음을 훌훌, 자유롭게 · 100% 익명 3D 공간</p>
             </div>
           </div>
 
